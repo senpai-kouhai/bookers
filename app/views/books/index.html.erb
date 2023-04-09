@@ -6,6 +6,10 @@
 
   <p>Body</p>
   <span><%= book.body %></span>
+
+  <%= link_to "Show", "/books/#{book.id}" %>
+  <%= link_to "Edit", "/books/#{book.id}/edit" %>
+  <%= link_to "Destroy", "/books" %>
 <% end %>
 
 
@@ -21,3 +25,6 @@
 
   <%= f.submit 'Create Book' %>
 <% end %>
+
+
+
