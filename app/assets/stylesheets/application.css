@@ -14,11 +14,7 @@
  *= require_self
  */
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 body{
   background-color: #fff;
@@ -34,4 +30,24 @@ p, ol ul, td{
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
+}
+
+a{
+  color: #000000;
+}
+
+.top-start{
+  color: #666666;
+}
+
+.notice{
+  color: green;
+}
+
+th{
+  padding-bottom: 5px;
+}
+
+.form-title,.form-body,.form-submit{
+  margin-bottom: 10px;
 }
